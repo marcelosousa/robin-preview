@@ -1,5 +1,5 @@
 public class CollectionItem implements Comparator<CollectionItem> {
-	 int getCardSet();
+   int getCardSet();
    int getCardRarity();
    int getCardId();
    int cardType;
@@ -31,5 +31,5 @@ public class CollectionItem implements Comparator<CollectionItem> {
        }
        return 1;    
      }
-	 }
+   }
 }
